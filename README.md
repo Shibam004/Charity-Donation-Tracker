@@ -4,7 +4,8 @@
 The Charity Donation Tracker is a decentralized application built on the Stellar Soroban smart contract platform. It allows users to transparently donate funds and track contributions made by different donors. The system ensures accountability, immutability, and trust in charity-related financial activities.
 
 <img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/191546df-2536-4ad7-9574-d17ef00cdcd9" />
-<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/eea603c1-0c6d-41cb-902d-bc9ec72dc99f" />
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/3b79f68c-9d42-47ac-9b46-1bbd07248fcf" />
+
 
 
 
