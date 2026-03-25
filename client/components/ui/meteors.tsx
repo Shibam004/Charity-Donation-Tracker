@@ -9,13 +9,14 @@ interface MeteorsProps {
 }
 
 export function Meteors({ number = 15, className }: MeteorsProps) {
+  // Use deterministic values based on index to avoid hydration mismatch
   const meteors = useMemo(
     () =>
       Array.from({ length: number }, (_, i) => ({
         id: i,
-        left: `${Math.floor(Math.random() * 100)}%`,
-        delay: `${(Math.random() * 5).toFixed(1)}s`,
-        duration: `${(Math.random() * 3 + 2).toFixed(1)}s`,
+        left: `${(i * 7 + 13) % 100}%`,
+        delay: `${((i * 3 + 7) % 50) / 10}s`,
+        duration: `${((i * 5 + 11) % 30) / 10 + 2}s`,
       })),
     [number]
   );
